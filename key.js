@@ -1,0 +1,12 @@
+const computer = {
+    brand : 'lenevo',
+    price : 35000 ,
+    processor : 'intel',
+    hdd : '512gb' ,
+    monitor : 'hp'
+}
+
+// ekhane object gu;a  ber korar jonno like hdd ,brand , pri==========> object.key()
+
+const keys = Object.keys(computer);
+console.log(keys)
